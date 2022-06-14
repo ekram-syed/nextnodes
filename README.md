@@ -16,11 +16,17 @@ The intention to create a well documented project starter with most common featu
 First, clone and run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
+npm run dev # or yarn dev
 ```
+### Environment variables and definition files.
+```bash
+Next.js allows you to set defaults in 
+.env # (all environments), 
+.env.development # (development environment), and 
+.env.production # (production environment).
 
+.env.local # always overrides the defaults set.
+```
 TODO
 
 ### Learn More
