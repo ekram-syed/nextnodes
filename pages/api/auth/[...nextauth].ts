@@ -39,6 +39,7 @@ export default NextAuth({
       TwitterProvider({
         clientId: process.env.NEXTAUTH_TWITTER_CLIENT_ID,
         clientSecret: process.env.NEXTAUTH_TWITTER_CLIENT_SECRET,
+//        version: process.env.NEXTAUTH_TWITTER_CLIENT_VERSION,
       }),
       GithubProvider({
         clientId: process.env.NEXTAUTH_GITHUB_CLIENT_ID,
