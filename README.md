@@ -12,6 +12,11 @@ The intention to create a well documented project starter with most common featu
 - Next
 - Next-Auth (*with all type of authentication providers*)
 - Prisma (*with all Prisma supported databases*)
+- ESLint
+- Husky
+- NVM
+- CommitLint
+- Prettier
 
 ---
 
@@ -36,7 +41,7 @@ Next.js allows you to set defaults in
 
 ---
 
-### All project settings files introduction.
+### All project configuration files introduction.
 
 - **tsconfig.json** 
   - The presence of a tsconfig.json file in a directory indicates that the directory is the root of a TypeScript project. The tsconfig.json file specifies the root files and the compiler options required to compile the project.
@@ -77,12 +82,11 @@ Next.js allows you to set defaults in
   - See section above `Modify environment variables and definition files`
 
 
-### Learn More
+### Reference
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [How to Build Scalable Architecture for your Next.js Project](https://dev.to/alexeagleson/how-to-build-scalable-architecture-for-your-nextjs-project-2pb7)
 
 ### Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-TODO

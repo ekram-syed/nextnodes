@@ -2,6 +2,14 @@
   "name": "nextnode",
   "version": "0.1.0",
   "private": true,
+  "author": "Syed Ekram Uddin",
+  "description": "NextNodes is an opensource full stack JavaScript starter (base) project based on modern best tools and following community best practices.",
+  "license": "MIT",
+  "homepage": "https://github.com/ekram-syed/nextnodes",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": "@latest"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
